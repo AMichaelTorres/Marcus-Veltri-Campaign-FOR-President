@@ -1,0 +1,102 @@
+body{
+    background-color:black;
+    text-align:center;
+}
+
+h1{
+    background-color:darkred;
+    color:white;
+    text-shadow:3px 3px 3px black;
+    border:white double 8px;
+}
+
+donate{
+    display:flex;
+}
+
+#donate h2{
+    height: 22px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: double white 3px;
+}
+
+#donate h2 a {
+  color:white;   
+}
+
+#donate h2:hover a {
+    color: black;
+}
+
+#donate h2:hover{
+ background:white;
+}
+    
+img{
+    width:477px;
+    border:white 8px double;
+}
+
+p{
+    color:white;
+    border:3px white double;
+    background-color:darkred;
+    text-shadow:3px 3px 3px black;
+}
+
+    #donate button {
+    width: 490px;   
+    height: 50px;
+    font-size: 20px;
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border: solid white 3px;
+}
+
+#donate button:hover {
+    background: white;
+    color: black;
+}
+
+.marcus1{
+    width:250px;
+    height:200px;
+}
+
+.marcus2{
+    width:250px;
+    height:200px;
+}
+
+.marcus3{
+    width:250px;
+    height:200px;
+}
+
+#pics img{
+    width: 40%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#pics {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 0;
+}
+
+#pics img:hover {
+  -webkit-transform: scaleY(1.5);
+          transform: scaleY(1.5);
+}
+
+#eagles h2 {text-shadow: 2px 2px #ff0000;}
+p {
+    font-size: 20px;
+}
+
+
